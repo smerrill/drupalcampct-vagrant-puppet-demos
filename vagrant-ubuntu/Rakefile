@@ -1,0 +1,11 @@
+require 'rubygems'
+require 'vagrant'
+
+task :default do
+  vm = Vagrant::Environment.new
+  puts "Creating the environment"
+  vm.cli("reload")
+  puts "The environment has been created\n"
+  puts "SSHing into the newly created machine"
+  vm.cli("ssh")
+end
