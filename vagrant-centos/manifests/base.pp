@@ -5,6 +5,7 @@ class centos56 {
    include drush
    include php53
    include noselinux
+   include httpd
 }
 
 include centos56
