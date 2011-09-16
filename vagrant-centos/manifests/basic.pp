@@ -43,7 +43,7 @@ class basic {
                                `+NNNNNNNNNs.                                    
                                :sssssssssss+.                                   
                                                                                 
-Welcome to a Treehouse Agency virtual machine managed by Vagrant and Puppet.\n\n"
+Welcome to a Treehouse Agency virtual machine managed by Vagrant, VirtualBox, and Puppet.\n\n"
   }
 
   package { [ "htop", "bash-completion", "vim-enhanced" ]:
